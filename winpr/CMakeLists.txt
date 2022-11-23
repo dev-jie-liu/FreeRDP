@@ -145,7 +145,7 @@ if (NOT WIN32)
 endif()
 
 # Soname versioning
-set(RAW_VERSION_STRING "3.0.0-dev")
+set(RAW_VERSION_STRING "2.9.1")
 if(EXISTS "${PROJECT_SOURCE_DIR}/.source_tag")
 	file(READ ${PROJECT_SOURCE_DIR}/.source_tag RAW_VERSION_STRING)
 elseif(USE_VERSION_FROM_GIT_TAG)
